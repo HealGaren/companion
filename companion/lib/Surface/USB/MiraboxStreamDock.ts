@@ -1999,7 +1999,7 @@ class StreamDock extends EventEmitter {
 		} else if (this.info.productId === 0x1001 || this.info.productId === 0x1007) {
 			// modelType = 'N4'
 			this.model = StreamDock.models['N4-1234']
-		} else if (this.info.productId === 0x1003) {
+		} else if (this.info.productId === 0x1003 || this.info.productId === 0x3002) {
 			// modelType = 'N3'
 			this.model = StreamDock.models['293N3']
 		} else if (this.info.productId === 0x1014) {
